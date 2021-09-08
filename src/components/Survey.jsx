@@ -29,7 +29,7 @@ const Survey =()=>{
         
                {value.answers.map((v,i)=>(
                    <>
-                   <AnswerContainer>
+                   <AnswerContainer key={i}>
                    <input type="radio"  name="Radio"  value={v}  onChange={selectionChange} checked={value.userSelectedAnswers === v}/>
                    <AnswerLabel>
                    <label>{v}</label>
@@ -48,8 +48,6 @@ const Survey =()=>{
             </Container>
               
             </>
-        }else {
-            return <>Server id down</>
         }
       
     })
