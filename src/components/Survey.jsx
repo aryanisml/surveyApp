@@ -48,6 +48,8 @@ const Survey =()=>{
             </Container>
               
             </>
+        }else {
+            return <></>
         }
       
     })
