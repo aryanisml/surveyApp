@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Timer from './components/Timer';
 import { DataContextProvider } from './context/DataContext';

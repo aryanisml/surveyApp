@@ -1,11 +1,9 @@
 import { useEffect, useState } from 'react'
 import styled from 'styled-components'
-import { useStateValue } from '../context/DataContext';
 
   
 const Timer =({limitTimeinHrsMinSec})=>{
 
- const [prevState] = useStateValue();
  
 const {hours=0, minutes=0, seconds=0} = limitTimeinHrsMinSec;
 const [[hrs, min, sec], setTime]= useState([hours,minutes,seconds])

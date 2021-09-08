@@ -15,7 +15,6 @@ const QuestionReducer =(state = initalState, action)=>{
             return {
                 ...state
             }
-            break;
         case 'NEXT_QUESTON':
             state.surveyInfo.questionBank.forEach((value, index)=>{
                 if(action.payload === index){
@@ -28,7 +27,6 @@ const QuestionReducer =(state = initalState, action)=>{
             return {
                 ...state
             }
-            break;
             case 'PREV_QUESTON':
             state.surveyInfo.questionBank.forEach((value, index)=>{
                 if(action.payload === index){
@@ -41,7 +39,6 @@ const QuestionReducer =(state = initalState, action)=>{
             return {
                 ...state
             }
-            break;
          default:
                 return { ...state };
     }
