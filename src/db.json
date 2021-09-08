@@ -1,0 +1,30 @@
+{
+    "questionBank" :[
+        {
+            "id": "001",
+            "question": "Q1. Select your favourite technology",
+             "answers" : [
+                     "Angular",
+                     "React",
+                     "flutter",
+                     "vue"
+             ],
+             "currentSelection":true,
+             "userSelectedAnswers":"",
+             "userProvidedAnswer":false
+        },
+        {
+            "id": "002",
+            "question": "Q2. Select your favourite cricketer",
+             "answers" : [
+                     "Sachin",
+                     "VVS Laxshman",
+                     "Rahul Dravid",
+                     "Sourav Ganguly"
+             ],
+             "currentSelection":false,
+             "userSelectedAnswers":"",
+             "userProvidedAnswer":false
+        }
+    ]
+}
